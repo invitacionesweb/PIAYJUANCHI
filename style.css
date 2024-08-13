@@ -145,6 +145,10 @@ header {
      width: 40px;
      margin-bottom: 10px;
  }
+ .icon2 {
+    width: 80px;
+    margin-bottom: 0px;
+}
 
 .bloque {
    
@@ -201,6 +205,37 @@ header {
    
 }
 .ubicacion-bloque p {
+    padding:10px 40px 30px 40px;
+    font-size: 1em;
+    max-width: 400px;
+    margin: auto;
+}
+
+.ubicacion1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    padding: 20px 0 20px 0 ;
+    background-color: var(--color-principal);
+}
+.ubicacion1-bloque {
+    width: 40%;
+    text-align: center;
+    padding: 0px 0 20px 0;
+    color: var(--color-terciario);
+}
+.ubicacion1-bloque h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    font-weight: bolder;
+   
+}
+.ubicacion1-bloque p {
     padding:10px 40px 30px 40px;
     font-size: 1em;
     max-width: 400px;
@@ -288,14 +323,23 @@ header {
     gap: 10px;
     background-color: var(--color-principal);
     max-width: 500px;
-    margin: 50px 0 50px 0;
+    margin: 50px 0 0px 0;
     
 }
-.dos p { 
+.dos p {
     max-width: 500px;
     text-align: center;
     margin: auto;
     max-width: 400px;
+    margin: 0;
+}
+.dos .dosdos { 
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    margin: 0;
+    padding: 0 40px;
 }
 .tres { 
     width: 100%;
@@ -396,6 +440,13 @@ footer img {
         padding: 30px 0 30px 0 ;
     }
     .ubicacion-bloque {
+        width: 100%;
+    }
+    .ubicacion1 {
+        flex-direction: column;
+        padding: 30px 0 30px 0 ;
+    }
+    .ubicacion1-bloque {
         width: 100%;
     }
     .lovestory { 
